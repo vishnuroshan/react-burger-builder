@@ -30,7 +30,7 @@ class ContactData extends Component {
                 .setValidation({ required: true, desc: 'Country must not be empty' })
                 .setPlaceHolder('Country').build(),
             email: new FormConfig('input', 'email')
-                .setValidation({ required: true, desc: 'Country must not be empty' })
+                .setValidation({ required: true, desc: 'email must not be empty' })
                 .setPlaceHolder('Your Email').build(),
             deliveryMethod: new FormConfig('select')
                 .setValid(true)
